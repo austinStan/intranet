@@ -1,0 +1,16 @@
+@component('mail::message')
+# 
+
+You  have received a report for computer assistance!!!
+
+  <h1>  {{$title}} </h1>
+
+  <p> {{$description}} </p><br>
+
+<strong>Department</strong>:  {{$department}} <br>
+
+<strong>Sent By </strong>:{{$name}} <br>
+Thanks<br>
+Regards<br>
+Kampala Hospital
+@endcomponent

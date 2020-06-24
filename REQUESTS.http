@@ -1,0 +1,9 @@
+# MAke Comp assistance request
+POST http://localhost:8000/api/computerassistance
+Content-Type: application/json
+
+{
+    "title":"Mouse not working",
+    "description":"My mouse is not responding to my clicks",
+    "department_id":"1"
+}
